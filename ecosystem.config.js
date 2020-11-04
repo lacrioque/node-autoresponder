@@ -2,6 +2,7 @@ module.exports = {
     apps : [{
       name: "supersimpleautoresponder",
       script: "./index.js",
+      args: "test:none",
       env: {
         NODE_ENV: "development",
       },
