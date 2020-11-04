@@ -1,0 +1,24 @@
+{
+    "IMAP": {
+        "imap": {
+            "user": "user@example.com",
+            "password": "supersecretpasword",
+            "host": "example.com",
+            "tls": true,
+            "port": 993,
+            "autotls" : "required",
+            "tlsOptions": { "rejectUnauthorized": false, "secureProtocol": "TLS_client_method" },
+            "authTimeout": 3000
+        }
+    },
+    "SMTP": {
+        "host": "example.com",
+        "port": 25,
+        "secure": false,
+        "tls": { "rejectUnauthorized": false, "secureProtocol": "TLS_client_method"},
+        "auth": {
+            "user": "user@example.com",
+            "pass": "supersecretpasword"
+        }
+    }
+}

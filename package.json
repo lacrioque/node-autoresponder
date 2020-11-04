@@ -1,0 +1,17 @@
+{
+  "name": "node-autoresponder",
+  "version": "0.0.1",
+  "description": "A simple autoresponder script that can be run to allow autoresponding on incoming mail.",
+  "main": "index.js",
+  "repository": "https://github.com:lacrioque/node-autoresponder",
+  "author": "Markus Flür <markusfluer@markusfluer.de>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "imap-simple": "^5.0.0",
+    "lodash": "^4.17.20",
+    "mailparser": "^3.0.0",
+    "node-imap": "^0.9.6",
+    "nodemailer": "^6.4.14"
+  }
+}
